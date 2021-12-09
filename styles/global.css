@@ -1,0 +1,41 @@
+* {
+   margin: 0; 
+   padding: 0;
+ }
+
+ .body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Gilroy';
+ }
+ 
+ a{
+   text-decoration: none;
+ }
+
+ .container {
+   max-width: 80%;
+   margin: 0 auto;
+   padding: 0 15px;
+   height: 100%;
+  
+ }
+
+
+ .wrapper{
+   min-height: 100%;
+   overflow: hidden;
+ }
+
+ .slide-btn{
+  width: 238px;
+  height: 76px;
+  background: rgba(232, 159, 113, 0.9);
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+
+ }
