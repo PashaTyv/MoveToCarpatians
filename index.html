@@ -21,15 +21,21 @@
    <div class="wrapper">
       <div class="header">
          <div class="header-container container">
+
             <div class="header-content">
                <div class="header-logo">
-                  <a href="#"> <img src="img/Logo.svg" alt="logo"></a>
+                  <a href="#"> <img src="img/Logo.svg" alt="logo" width="100%"></a>
                </div>
+
+               <div class="header-burger">
+                  <span class="burger "></span>
+                  
+                </div>
                <div class="header-nav">
                   <a href="#" class="nav-text">Home</a>
                   <a href="#" class="nav-text">About Us</a>
-                  <a href="#" class="nav-text">Our Services </a>
-                  <a href="#" class="nav-text">Our Offers </a>
+                  <a href="#" class="nav-text">Our Services</a>
+                  <a href="#" class="nav-text">Our Offers</a>
                   <a href="#" class="nav-text">Contact Us</a>
                </div>
                <div class="header-social-icons">
@@ -39,6 +45,21 @@
                </div>
             </div>
          </div>
+         <div class="header-sidebar">
+            <div class="header-sidebar-menu">
+              <a href="#" class="sidebar-text">Home</a>
+              <a href="#" class="sidebar-text">About Us</a>
+              <a href="#" class="sidebar-text">Our Services</a>
+              <a href="#" class="sidebar-text">Our Offers</a>
+              <a href="#" class="sidebar-text">Contact Us</a>
+            </div>
+            <div class="sidebar-social-media-icons">
+              <a href="#"><img src="img/facebook.svg" alt="social-media-icon" class="social-media-icon" ></a>
+              <a href="#"><img src="img/twitter.svg" alt="social-media-icon" class="social-media-icon" ></a>
+              <a href="#"><img src="img/instagram.svg" alt="social-media-icon" class="social-media-icon" ></a>
+            </div>
+            <p class="sidebar-down-text">Copyright © 2020 All rights reserved</p>
+          </div>
       </div>
 
       <div class="swiper mySwiper">
@@ -95,7 +116,7 @@
          </div>
          <div class="swiper-pagination" id="swiper-pagination_custom"></div>
       </div>
-      <section class="about-us">
+      <section class="about-us" >
          <div class="container">
             <div class="about-us-content">
                <div class="about-us-description">
@@ -104,7 +125,8 @@
                      <div class="line"></div>
                   </div>
                   <div class="content-description">
-                     <h4 class="about-company-bold">OUR COMPANY HAS EXPERIENCED EMPLOYEES WHO CAN HELP YOU MAKE YOUR DREAM COME TRUE. GOING THIS WAY IS SAFE</h4>
+                     <h4 class="about-company-bold">OUR COMPANY HAS EXPERIENCED EMPLOYEES WHO CAN HELP YOU MAKE YOUR
+                        DREAM COME TRUE. GOING THIS WAY IS SAFE</h4>
                      <p class="about-company">
                         We help you how to move to Ukraine, buy the property...
                         Here you can own a farm or a house in the mountains with a large plot of land. Here you can have
@@ -116,34 +138,255 @@
                      <div class="about-places">
                         <h4 class="about-places-title">A few words about a place where you can be</h4>
                         <ul>
-                           <li class="places-list">- Good Ecology</li>
-                           <li class="places-list">- Favorable climate</li>
-                           <li class="places-list">- Spring clean water</li>
-                           <li class="places-list">- Spring clean water</li>
+                           <li class="places-list">- Good Ecology.</li>
+                           <li class="places-list">- Favorable climate.</li>
+                           <li class="places-list">- Spring clean water.</li>
                            <li class="places-list">- Perfect weather for hiking</li>
+                           <li class="places-list">- Peace and relaxation. No cataclysms.</li>
+                           <li class="places-list">- Stunning views.</li>
+                           <li class="places-list">- Developed infrastructure.</li>
+
                         </ul>
                      </div>
                   </div>
 
                </div>
-               <div class="photo">
-                  <img src="img/Image Group.png" alt="mountains">
+               <div class="photo-about-us">
+                  <img src="img/Image Group.png" alt="mountains" width="100%">
                </div>
             </div>
 
          </div>
 
       </section>
-   </div>
-   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <section class="services">
+         <div class="container">
+            <div class="our-services">
+               <div class="services-title">
+                  <h3 class="content-title">Our Services</h3>
+                  <div class="line"></div>
+               </div>
+               <div class="services-slider">
 
-   <script>
-      var swiper = new Swiper(".mySwiper", {
-         pagination: {
-            el: ".swiper-pagination",
-         },
-      });
-   </script>
+                  <div class="serviсes-list">
+                     <div class="service-text active" onclick="changeSlide(0)">
+                        Consulting
+                     </div>
+                     <div class="service-text" onclick="changeSlide(1)">Information
+                     </div>
+                     <div class="service-text" onclick="changeSlide(2)">Legal
+                     </div>
+                     <div class="service-text" onclick="changeSlide(3)">Economic</div>
+                     <div class="service-text" onclick="changeSlide(4)">Procedural</div>
+                     <div class="service-text" onclick="changeSlide(5)">Client consultation
+                     </div>
+
+                  </div>
+
+
+                  <div class="services-photo">
+                     <img src="img/services.png" alt="services-photo" class="img-swiper active">
+                     <img src="img/services-2.png" alt="services-photo" class="img-swiper">
+                     <img src="img/services.png" alt="services-photo" class="img-swiper">
+                     <img src="img/services-2.png" alt="services-photo" class="img-swiper">
+                     <img src="img/services.png" alt="services-photo" class="img-swiper">
+                     <img src="img/services-2.png" alt="services-photo" class="img-swiper">
+                  </div>
+
+
+               </div>
+
+            </div>
+
+         </div>
+
+      </section>
+
+      <section class="offers">
+         <div class="container">
+            <div class="our-offers">
+               <div class="offers-title">
+                  <h3 class="content-title">Our Offers</h3>
+                  <div class="line"></div>
+               </div>
+               <div class="offers-slider">
+
+                  <div class=" swiper-offers">
+                     <div class="swiper-wrapper swiper-wrapper-offers">
+                        <div class="swiper-slide swiper-slide-offers">
+                           <img src="img/offers-1.png" alt="photo-offers">
+                           <p class="slide-offers-text">Selection of terrain according to your individual requirements
+                           </p>
+
+                        </div>
+                        <div class="swiper-slide swiper-slide-offers">
+                           <img src="img/offers-2.png" alt="photo-offers">
+                           <p class="slide-offers-text">Checking of available documents on property on all possible
+                              criteria by our experts</p>
+                        </div>
+                        <div class="swiper-slide swiper-slide-offers ">
+                           <img src="img/offers-3.png" alt="photo-offers">
+                           <p class="slide-offers-text">Selection of terrain according to your individual requirements</p>
+                        </div>
+                        <div class="swiper-slide swiper-slide-offers ">
+                           <img src="img/offers-1.png" alt="photo-offers">
+                           <p class="slide-offers-text">Checking of available documents on property on all possible
+                              criteria by our experts</p>
+                        </div>
+                        <div class="swiper-slide swiper-slide-offers ">
+                           <img src="img/offers-2.png" alt="photo-offers">
+                           <p class="slide-offers-text">Selection of terrain according to your individual requirements
+                           </p>
+                        </div>
+                        <div class="swiper-slide swiper-slide-offers ">
+                           <img src="img/offers-3.png" alt="photo-offers">
+                           <p class="slide-offers-text">Checking of available documents on property on all possible
+                              criteria by our experts</p>
+                        </div>
+                        <div class="swiper-slide swiper-slide-offers ">
+                           <img src="img/offers-1.png" alt="photo-offers">
+                           <p class="slide-offers-text">Selection of terrain according to your individual requirements
+                           </p>
+                        </div>
+                        <div class="swiper-slide swiper-slide-offers ">
+                           <img src="img/offers-2.png" alt="photo-offers">
+                           <p class="slide-offers-text">Checking of available documents on property on all possible
+                              criteria by our experts</p>
+                        </div>
+                        <div class="swiper-slide  swiper-slide-offers">
+                           <img src="img/offers-3.png" alt="photo-offers">
+                           <p class="slide-offers-text">Selection of terrain according to your individual requirements
+                           </p>
+                        </div>
+
+                     </div>
+
+                     <div class="swiper-pagination" id="swiper-pagination-offers"></div>
+
+
+                  </div>
+
+
+               </div>
+
+            </div>
+
+         </div>
+
+      </section>
+      <section class="reviews">
+         <div class="our-reviews">
+            <div class="reviews-photo">
+               <img src="img/rewiews.png " height="100%" alt="photo">
+
+            </div>
+            <div class="reviews-description">
+               <div class="swiper-button swiper mySwiper">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="reviews-description-container">
+                           <p class="reviews-description-text">We had an incredible experience in “Move to Carpathian”
+                              and were
+                              impressed they made such a big difference in only three weeks. Our team is so grateful for
+                              the
+                              wonderful improvements they made and their ability to get familiar with the product
+                              concept so
+                              quickly. It acted as a catalyst to take our design to the next level and get more eyes on
+                              our
+                              product.</p>
+
+                           <h5 class="reviews-description-text-client">Scarlett Johansson</h5>
+                           <p class="reviews-description-text-position">CEO at Xion</p>
+
+
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="reviews-description-container">
+                           <p class="reviews-description-text">We had an incredible experience in “Move to Carpathian”
+                              and were
+                              impressed they made such a big difference in only three weeks. Our team is so grateful for
+                              the
+                              wonderful improvements they made and their ability to get familiar with the product
+                              concept so
+                              quickly. It acted as a catalyst to take our design to the next level and get more eyes on
+                              our
+                              product.</p>
+
+                           <h5 class="reviews-description-text-client">Scarlett Johansson</h5>
+                           <p class="reviews-description-text-position">CEO at Xion</p>
+
+
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="reviews-description-container">
+                           <p class="reviews-description-text">We had an incredible experience in “Move to Carpathian”
+                              and were
+                              impressed they made such a big difference in only three weeks. Our team is so grateful for
+                              the
+                              wonderful improvements they made and their ability to get familiar with the product
+                              concept so
+                              quickly. It acted as a catalyst to take our design to the next level and get more eyes on
+                              our
+                              product.</p>
+
+                           <h5 class="reviews-description-text-client">Scarlett Johansson</h5>
+                           <p class="reviews-description-text-position">CEO at Xion</p>
+
+
+                        </div>
+                     </div>
+
+                  </div>
+                  <div class="swiper-pagination "></div>
+               </div>
+
+            </div>
+         </div>
+
+      </section>
+   </div>
+   <footer class="footer">
+      <div class="footer-container">
+         <div class="footer-content">
+            <div class="footer-logo">
+               <img src="img/logo-footer.svg" alt="logo">
+            </div>
+            <div class="footer-nav">
+               <span class="footer-text adaptive">Copyright © 2020 All rights reserved</span>
+               <span class="footer-text ">СЕО Orest Yatskulyak</span>
+               <a href="#" class="footer-text phone">+3 (050) 750 2 555</a>
+               <a href="#" class="footer-text mail">orestrock7@gmail.com</a>
+
+            </div>
+            <div class="footer-social-media">
+               <a href="#" class="social-icon"><img src="img/facebook-footer.svg" alt="social-media-icon"></a>
+               <a href="#" class="social-icon"><img src="img/Twitter-footer.svg" alt="social-media-icon"></a>
+               <a href="#" class="social-icon"><img src="img/Instagram-footer.svg" alt="social-media-icon"></a>
+
+            </div>
+
+         </div>
+         <div class="send-form">
+            <div class="send">
+               <span class="send-form-title">Stay Updated</span>
+            </div>
+
+            <div class="send-form-input">
+               <input type="text" placeholder="Enter your email" class="input-footer">
+               <button class="button-footer">
+                  <img src="img/button-footer.svg">
+               </button>
+            </div>
+
+            <p class="footer-adaptive-text">Copyright © 2020 All rights reserved</p>
+
+         </div>
+      </div>
+   </footer>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="js/index.js"></script>
 </body>
 
 </html>
