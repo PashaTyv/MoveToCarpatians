@@ -28,15 +28,15 @@
                </div>
 
                <div class="header-burger">
-                  <span class="burger "></span>
+                  <span class="burger"></span>
                   
                 </div>
                <div class="header-nav">
-                  <a href="#" class="nav-text">Home</a>
-                  <a href="#" class="nav-text">About Us</a>
-                  <a href="#" class="nav-text">Our Services</a>
-                  <a href="#" class="nav-text">Our Offers</a>
-                  <a href="#" class="nav-text">Contact Us</a>
+                  <a href="#home" class="nav-text">Home</a>
+                  <a href="#about-us" class="nav-text">About Us</a>
+                  <a href="#services" class="nav-text">Our Services</a>
+                  <a href="#offers" class="nav-text">Our Offers</a>
+                  <a href="#contact" class="nav-text">Contact Us</a>
                </div>
                <div class="header-social-icons">
                   <a href="#" class="social-icon"><img src="img/facebook.svg" alt="social-media-icon"></a>
@@ -47,11 +47,11 @@
          </div>
          <div class="header-sidebar">
             <div class="header-sidebar-menu">
-              <a href="#" class="sidebar-text">Home</a>
-              <a href="#" class="sidebar-text">About Us</a>
-              <a href="#" class="sidebar-text">Our Services</a>
-              <a href="#" class="sidebar-text">Our Offers</a>
-              <a href="#" class="sidebar-text">Contact Us</a>
+              <a href="#home" class="sidebar-text">Home</a>
+              <a href="#about-us" class="sidebar-text">About Us</a>
+              <a href="#services" class="sidebar-text">Our Services</a>
+              <a href="#offers" class="sidebar-text">Our Offers</a>
+              <a href="#contact" class="sidebar-text">Contact Us</a>
             </div>
             <div class="sidebar-social-media-icons">
               <a href="#"><img src="img/facebook.svg" alt="social-media-icon" class="social-media-icon" ></a>
@@ -116,12 +116,12 @@
          </div>
          <div class="swiper-pagination" id="swiper-pagination_custom"></div>
       </div>
-      <section class="about-us" >
+      <section class="about-us"  >
          <div class="container">
             <div class="about-us-content">
-               <div class="about-us-description">
+               <div class="about-us-description" id="about-us" >
                   <div class="title">
-                     <h3 class="content-title">About Us</h3>
+                     <h3 class="content-title" >About Us</h3>
                      <div class="line"></div>
                   </div>
                   <div class="content-description">
@@ -353,7 +353,7 @@
             <div class="footer-logo">
                <img src="img/logo-footer.svg" alt="logo">
             </div>
-            <div class="footer-nav">
+            <div class="footer-nav" id="contact">
                <span class="footer-text adaptive">Copyright © 2020 All rights reserved</span>
                <span class="footer-text ">СЕО Orest Yatskulyak</span>
                <a href="#" class="footer-text phone">+3 (050) 750 2 555</a>
@@ -385,6 +385,9 @@
          </div>
       </div>
    </footer>
+   <button onclick="topFunction()" id="myBtn" >
+      <img src="img/Line.svg" >
+   </button>
    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    <script src="js/index.js"></script>
 </body>
